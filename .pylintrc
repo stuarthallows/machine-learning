@@ -1,0 +1,21 @@
+[MESSAGES CONTROL]
+
+# Enable the message, report, category or checker with the given id(s). You can
+# either give multiple identifier separated by comma (,) or put this option
+# multiple time.
+#enable=
+
+# Disable the message, report, category or checker with the given id(s). You
+# can either give multiple identifier separated by comma (,) or put this option
+# multiple time (only on the command line, not in the configuration file where
+# it should appear only once).
+
+# Generate list of symbolic names
+#  pylint --list-msgs
+# List available at
+#  https://github.com/b0wl/readable-pylint-messages/blob/master/README.md
+
+# Invalid constant name
+disable=invalid-name,
+        no-member,
+        wrong-import-position
